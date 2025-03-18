@@ -100,3 +100,17 @@ console.log(original2.address.city); // "NY" (Original remains unchanged)
 //Cant show higher order components since using simple js
 
 
+//3 Types of errors
+
+// let num = 5;
+// num(); 
+//The above throws a type error because num is not a function
+
+console.log(age); 
+let age = 25;
+//the above throws a ReferenceError because age is not initialized at time of it being accessed
+
+// function sayHello {
+//     console.log("Hello");
+// } 
+// this throws a SyntaxError bevcause its Missing parentheses
